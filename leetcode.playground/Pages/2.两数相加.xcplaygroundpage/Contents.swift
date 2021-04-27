@@ -29,3 +29,54 @@
  链接：https://leetcode-cn.com/problems/add-two-numbers
  著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
+
+// Definition for singly-linked list.
+public class ListNode {
+    public var val: Int
+    public var next: ListNode?
+    public init() { self.val = 0; self.next = nil; }
+    public init(_ val: Int) { self.val = val; self.next = nil; }
+    public init(_ val: Int, _ next: ListNode?) { self.val = val; self.next = next; }
+}
+
+func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
+    if l1 == nil { return l2 }
+    if l2 == nil { return l1 }
+    var l1 = l1
+    var l2 = l2
+    let head = ListNode.init()
+    var tail = head
+    var carry = 0
+    while l1 != nil || l2 != nil {
+        let sum = (l1?.val ?? 0) + (l2?.val ?? 0) + carry
+        tail.next = ListNode.init(sum % 10)
+        tail = tail.next!
+        carry = sum / 10
+        l1 = l1?.next
+        l2 = l2?.next
+    }
+    if carry > 0 {
+        tail.next = ListNode.init(carry)
+    }
+    return head.next
+}
+
+// 打印链表
+func printListNode(_ list: ListNode?) {
+    guard list != nil else {
+        print("传入链表为空")
+        return
+    }
+    var list = list
+    var arr: [Int] = Array()
+    while list != nil {
+        arr.append(list?.val ?? 0)
+        list = list?.next
+    }
+    print(arr)
+}
+
+let l1 = ListNode.init(2, ListNode.init(4, ListNode.init(3)))
+let l2 = ListNode.init(5, ListNode.init(6, ListNode.init(4)))
+
+printListNode(addTwoNumbers(l1, l2))
