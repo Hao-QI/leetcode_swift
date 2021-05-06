@@ -32,7 +32,6 @@
 
 func longestPalindrome(_ s: String) -> String {
     let arr = s.map({$0})
-    print(arr)
     var start = 0, end = 0, n = s.count
     for i in 0..<n {
         var a = i, b = i
