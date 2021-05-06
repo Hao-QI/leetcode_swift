@@ -6,5 +6,6 @@
         <page name='3. 无重复字符的最长子串'/>
         <page name='4. 寻找两个正序数组的中位数'/>
         <page name='5. 最长回文子串'/>
+        <page name='6. Z 字形变换'/>
     </pages>
 </playground>
