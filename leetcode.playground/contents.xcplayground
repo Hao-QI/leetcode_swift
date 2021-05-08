@@ -8,5 +8,6 @@
         <page name='5. 最长回文子串'/>
         <page name='6. Z 字形变换'/>
         <page name='7. 整数反转'/>
+        <page name='8. 字符串转换整数 (atoi)'/>
     </pages>
 </playground>
