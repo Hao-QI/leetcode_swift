@@ -9,5 +9,6 @@
         <page name='6. Z 字形变换'/>
         <page name='7. 整数反转'/>
         <page name='8. 字符串转换整数 (atoi)'/>
+        <page name='9. 回文数'/>
     </pages>
 </playground>
