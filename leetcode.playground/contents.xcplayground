@@ -11,5 +11,6 @@
         <page name='8. 字符串转换整数 (atoi)'/>
         <page name='9. 回文数'/>
         <page name='10. 正则表达式匹配'/>
+        <page name='11. 盛最多水的容器'/>
     </pages>
 </playground>
