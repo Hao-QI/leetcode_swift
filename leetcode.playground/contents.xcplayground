@@ -12,5 +12,6 @@
         <page name='9. 回文数'/>
         <page name='10. 正则表达式匹配'/>
         <page name='11. 盛最多水的容器'/>
+        <page name='12. 整数转罗马数字'/>
     </pages>
 </playground>
