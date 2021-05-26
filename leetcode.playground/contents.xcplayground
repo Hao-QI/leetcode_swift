@@ -18,5 +18,6 @@
         <page name='15. 三数之和'/>
         <page name='16. 最接近的三数之和'/>
         <page name='17. 电话号码的字母组合'/>
+        <page name='18. 四数之和'/>
     </pages>
 </playground>
