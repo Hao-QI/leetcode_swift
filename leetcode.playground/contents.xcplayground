@@ -20,5 +20,6 @@
         <page name='17. 电话号码的字母组合'/>
         <page name='18. 四数之和'/>
         <page name='19. 删除链表的倒数第 N 个结点'/>
+        <page name='20. 有效的括号'/>
     </pages>
 </playground>
