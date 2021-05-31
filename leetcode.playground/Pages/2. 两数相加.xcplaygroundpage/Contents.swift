@@ -78,5 +78,4 @@ func printListNode(_ list: ListNode?) {
 
 let l1 = ListNode.init(2, ListNode.init(4, ListNode.init(3)))
 let l2 = ListNode.init(5, ListNode.init(6, ListNode.init(4)))
-
 printListNode(addTwoNumbers(l1, l2))
