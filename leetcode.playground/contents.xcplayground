@@ -25,5 +25,6 @@
         <page name='22. 括号生成'/>
         <page name='23. 合并K个升序链表'/>
         <page name='24. 两两交换链表中的节点'/>
+        <page name='25. K 个一组翻转链表'/>
     </pages>
 </playground>
