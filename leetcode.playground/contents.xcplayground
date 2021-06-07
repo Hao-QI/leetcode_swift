@@ -26,5 +26,6 @@
         <page name='23. 合并K个升序链表'/>
         <page name='24. 两两交换链表中的节点'/>
         <page name='25. K 个一组翻转链表'/>
+        <page name='26. 删除有序数组中的重复项'/>
     </pages>
 </playground>
