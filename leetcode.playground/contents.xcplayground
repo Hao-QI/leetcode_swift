@@ -29,5 +29,6 @@
         <page name='26. 删除有序数组中的重复项'/>
         <page name='27. 移除元素'/>
         <page name='28. 实现 strStr()'/>
+        <page name='29. 两数相除'/>
     </pages>
 </playground>
