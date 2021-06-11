@@ -30,5 +30,6 @@
         <page name='27. 移除元素'/>
         <page name='28. 实现 strStr()'/>
         <page name='29. 两数相除'/>
+        <page name='30. 串联所有单词的子串'/>
     </pages>
 </playground>
