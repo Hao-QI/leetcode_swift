@@ -31,5 +31,6 @@
         <page name='28. 实现 strStr()'/>
         <page name='29. 两数相除'/>
         <page name='30. 串联所有单词的子串'/>
+        <page name='31. 下一个排列'/>
     </pages>
 </playground>
