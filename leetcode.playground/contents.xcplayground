@@ -33,5 +33,6 @@
         <page name='30. 串联所有单词的子串'/>
         <page name='31. 下一个排列'/>
         <page name='32. 最长有效括号'/>
+        <page name='33. 搜索旋转排序数组'/>
     </pages>
 </playground>
