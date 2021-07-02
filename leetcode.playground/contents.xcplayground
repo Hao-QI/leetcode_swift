@@ -36,5 +36,6 @@
         <page name='33. 搜索旋转排序数组'/>
         <page name='34. 在排序数组中查找元素的第一个和最后一个位置 '/>
         <page name='35. 搜索插入位置'/>
+        <page name='36. 有效的数独'/>
     </pages>
 </playground>
