@@ -38,5 +38,6 @@
         <page name='35. 搜索插入位置'/>
         <page name='36. 有效的数独'/>
         <page name='37. 解数独'/>
+        <page name='38. 外观数列 '/>
     </pages>
 </playground>
