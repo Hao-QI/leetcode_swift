@@ -47,5 +47,5 @@ func rangeSumBST(_ root: TreeNode?, _ low: Int, _ high: Int) -> Int {
 }
 
 // 实例1：[10,5,15,3,7,null,18]
-let tree = TreeNode.init(10, TreeNode.init(5, TreeNode.init(3), TreeNode.init(7)), TreeNode.init(15, TreeNode.init(), TreeNode.init(18)))
+let tree = TreeNode.init(10, TreeNode.init(5, TreeNode.init(3), TreeNode.init(7)), TreeNode.init(15, nil, TreeNode.init(18)))
 print(rangeSumBST(tree, 7, 15))
