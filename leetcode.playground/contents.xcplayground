@@ -42,5 +42,6 @@
         <page name='39. 组合总和'/>
         <page name='40. 组合总和 II'/>
         <page name='41. 缺失的第一个正数'/>
+        <page name='42. 接雨水'/>
     </pages>
 </playground>
